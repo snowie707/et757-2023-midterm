@@ -1,0 +1,8 @@
+<!-- coffee-list.component.html -->
+<div *ngIf="coffeeData">
+  <div class="w3-card" *ngFor="let coffee of coffeeData">
+    <h2>{{ coffee.name }}</h2>
+    <p>{{ coffee.description }}</p>
+    <!-- Add more properties as needed -->
+  </div>
+</div>
